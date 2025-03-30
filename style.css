@@ -1,0 +1,993 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "AxLLCircular", Helvetica, Arial, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 100%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    padding: 2.5em 1em;
+    list-style-type: none;
+    margin: 0 8rem;
+}
+
+nav li a{
+    text-decoration: none;
+    padding-right: 4.5rem;
+    font-size: 1.8rem;
+    color: #545B63;
+}
+nav li a:hover{
+    color: #612FFF;
+}
+nav img{
+    padding-right: 4.5rem;
+}
+nav .btn-1{
+    margin-right: 1rem;
+    color: #612FFF;
+    background-color: transparent;
+    border: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+nav .btn-1:hover{
+    text-decoration: underline;
+}
+.btns{
+    margin-left: 8rem;
+}
+.btn-2{
+    color: #ffffff;
+    background: #612FFF;
+    padding: 8px 16px;
+    border: none;
+    font-size: 1.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: #7047f9;
+}
+
+/* styling for div1 */
+.div-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    
+}
+.div-1 .finance{
+    /* display: flex; */
+    /* flex-direction: column;
+    align-self: center;
+     */
+}
+.div-1 .finance .media-h1{
+    display: none;
+}
+.div-1 .finance h1{
+    font-size: 5.5rem;
+}
+.div-1 .finance span{
+    color: #612FFF;
+}
+.div-1 .finance p{
+    font-size: 1.8rem;
+    margin: 4.5rem 0;
+    color: #545B63;
+}
+.div-1 .finance button{
+     width: 25%;
+     padding: 10px 13px;
+     font-size: 1.6rem;
+}
+.btn-3{
+    background: #612FFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+.btn-3:hover{
+    background-color: #7047f9;
+}
+.btn-4{
+    background: #ffffff;
+    color: #612FFF;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.div-1 img{
+    height: 70vh;
+    width: 45vw;
+}
+.div-1 .balance-transaction{
+    display: none;
+}
+
+/* div 2 styling starts here */
+.div-2{
+    margin: 20rem 0;
+}
+.div-2 .logo1{
+    display: flex;
+    justify-content: center;
+    
+}
+.div-2 .logo2{
+    display: flex;
+    justify-content: center;
+    
+}
+.div-2 img{
+    height: 14vh;
+}
+
+/*div 3 styling starts here*/
+.div3-style{
+    max-height: 80vh;
+    max-width: 31vw;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 2rem;
+    color: #ffffff;
+}
+.div-3 h3{
+    font-size: 2.8rem;
+}
+.div-3 .div3-style p{
+    font-size: 1.5rem;
+}
+.div-3 img{
+    height: 45vh;
+    width: 29vw;
+}
+.div-3 .business-account{
+    background: orangered;
+}
+.div-3 .business-account .visa{
+    position: absolute;
+    margin-top: 14.8rem;
+    margin-left: -15rem;
+    height: 10vh;
+    width: 7.5vw;
+}
+.div-3 .core-api .anim-api{
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: -20rem;
+    height: 31vh;
+    width: 12vw;
+}
+.div-3 .core-api{
+    background: #612FFF;
+}
+.div-3 .embed-finance{
+    background: rgb(159, 5, 23);
+}
+.div3-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.div3-writeup{
+    text-align: center;
+    margin-bottom: 6.5rem;
+    
+}
+.div3-writeup h2{
+    margin-bottom: 4.2rem;
+    font-size: 4rem;
+}
+.div3-writeup h4{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #545B63;
+}
+.div3-writeup p{
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    color: #545B63;
+}
+.div-3 i{
+    font-size: 1.5rem;
+    width: 7rem;
+    margin: 3rem 0;
+    cursor: pointer;
+}
+
+/*div 4 styling starts here*/
+.div-4{
+    background-color: #1f2225;
+    margin: 12rem 0;
+    color: #fff;
+    
+}
+.div-4 .div4-writeup{
+    text-align: center;
+    padding: 7rem 0 4.5rem 0;
+}
+.div-4 .div4-writeup h2{
+    font-size: 4.1rem;
+    padding-bottom: 2.5rem;
+}
+.div-4 .div4-writeup p{
+    font-size: 1.7rem;
+    padding-bottom: 4.5rem;
+}
+.btn-5{
+    width: 20.5%;
+    padding: 1.8rem 4.5rem;
+    border-radius: 28px;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(159, 5, 23);
+    margin-right: 2.5rem;
+}
+.btn-6{
+    width: 20.5%;
+    padding: 1.8rem 4.5rem;
+    border-radius: 28px;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #2f3237;
+    margin-right: 2.5rem;
+}
+.btn-6:hover{
+    background: #612FFF;
+}
+.btn-7{
+    width: 20.5%;
+    padding: 1.8rem 4.5rem;
+    border-radius: 28px;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #2f3237;
+    margin-right: 2.5rem;
+}
+.btn-7:hover{
+    background: rgb(159, 5, 23);
+}
+.div4-flex{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.flex-p{
+    font-size: 1.7rem;
+    margin: 1.5rem;
+}
+.glob-account{
+    width: 45vw;
+    margin: 2rem;
+    max-height: 50vh;
+    border-radius: 10px;
+    /* margin: 2rem 35rem 2rem; */
+    display: flex;
+    justify-content: space-around;
+    /* padding: 5rem 5rem; */
+}
+.div-4 h4{
+    color:#545B63;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0.7rem 1.5rem;
+}
+.div-4 i{
+    margin: 0.7rem 1.5rem;
+}
+.glob-account img{
+    height: 30vh;
+    margin-top: 4rem;
+}
+.glob-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bill-pay{
+    width: 25vw;
+    margin: 2rem;
+    max-height: 50vh;
+    border-radius: 10px;
+   
+}
+.bill-pay img{
+    height: 25vh;
+}
+
+.div4-flex2{
+    display: flex;
+    justify-content: flex-end;
+}
+.second-flex{
+    margin: 2rem;
+    max-height: 44vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.second-flex img{
+    height: 25vh;
+}
+.flex-bg{
+    background-color: #2f3237;
+}
+
+.div4-flex3{
+    display: flex;
+    justify-content: flex-end;
+}
+.third-flex{
+    margin: 2rem;
+    max-height: 44vh;
+    width: 22.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.watch-video{
+    position: absolute;
+    margin-top: -93rem;
+}
+.div-4 .watch-video h2{
+    font-size: 3.8rem;
+    font-weight: 500;
+    margin: 2.5rem;
+}
+.div-4 .watch-video h4{
+    margin-left: 2.9rem;
+}
+.div-4 .watch-video img{
+    height: 80vh;
+    width: 21.5vw;
+    margin-left: 1.5rem;
+}
+.btn-8{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    width: 10.7vw;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem 1.8rem;
+    margin-left: 2.5rem;
+    margin-bottom: 2.7rem;
+
+}
+.btn-8:hover{
+    background: rgb(159, 5, 23);
+}
+
+/*div 5 styling starts here*/
+.div-5 .div5-text .div5-media-h2{
+    display: none;
+}
+.div-5{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 12rem;
+}
+.div5-text h2{
+    font-size: 3.6rem;
+    margin-top: 8rem;
+}
+.div5-flex{
+   border: 1px solid lightgray;
+   border-radius: 10px;
+   /* margin: 2rem; */
+   text-align: center;
+   background:lightgray;
+}
+.div5-flex h4{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.div5-flex p{
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    color: #2f3237;
+}
+
+/*div 6 styling starts here*/
+.div-6{
+    background-color: #1f2225;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10rem 0;
+}
+/* .div-6 .div6-text{
+    padding-left: 1rem;
+} */
+.div-6 .div6-text h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #545B63;
+    padding-bottom: 3rem;
+}
+.div-6 .div6-text h2{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+.div-6 h5{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 5rem;
+    color: lightgray;
+}
+
+.div-6 .div6-text p{
+    font-size: 1.8rem;
+    color: lightgray;
+    margin-left: 5rem;
+}
+.div-6 a{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    color: lightgray;
+}
+.div-6 a:hover{
+    text-decoration: underline;
+}
+
+.protected, .security-first, .Highest-standard, .Compliant{
+    margin-bottom: 2rem;
+}
+.div-6 .div6-text img{
+    position: absolute;
+    margin-top: -1rem;
+}
+
+/*div 7 styling starts here*/
+.div-7{
+    padding: 12rem 0;
+}
+.div-7 .div7-text1 h1{
+    font-size: 4rem;
+    padding-bottom: 3rem;
+    margin-left: 5rem;
+    
+}
+.div-7 p{
+    font-size: 1.7rem;
+    color: #545B63;
+    
+}
+.div-7 .div7-text1 p{
+    margin-left: 5rem;
+}
+.div7-text2{
+    margin-top: 13rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*div 8 styling starts here*/
+.div-8{
+    background-color: #1f2225;
+    color: #fff;
+    padding: 8rem 4rem 8rem;
+    /* margin-bottom: 8rem; */
+    font-size: 2rem;
+}
+.div-8 .dalstrong{
+    display: none;
+}
+
+/*div 9 styling starts here*/
+.div-9{
+    color: #1f2225;
+    padding: 10rem 4rem 8rem;
+    margin-bottom: 8rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.div-9 button{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    background: #612FFF;
+    width: 20vw;
+    color: #fff;
+    font-size: 1.6rem;
+
+}
+.div-9 button:hover{
+    background-color: #7047f9;
+}
+
+/*footer styling starts here*/
+footer{
+    background-color: rgb(234, 231, 231);
+    padding: 10rem 5rem;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-bottom: 2.5rem;
+    margin-right: 3.5rem;
+}
+.stores img{
+    margin-right: 2rem;
+}
+footer .footer2 a{
+    display: block;
+    text-decoration: none;
+    color: #2f3237;
+    font-size: 1.6rem;
+    font-weight: 510;
+    padding-top: 2.5rem;
+}
+.footer2 a:hover{
+    text-decoration: underline;
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+}
+.footer2 h6{
+    color: #2f3237;
+    font-size: 1.6rem;
+    font-weight: 510;
+    padding-top: 2.5rem;
+}
+
+
+@media (max-width:1024px){
+    html{
+        font-size: 50%;
+    }
+    header{
+        background:#af9ee8;
+        margin-left: -5rem;
+    }
+    header nav ul .btn-1{
+        margin: auto;
+        
+    }
+    header .btn-2{
+        margin-left: 2rem;
+        
+    }
+
+    /*for div 1*/
+    .div-1{
+        display: block;
+    }
+    .div-1 .finance h1{
+        display: none;
+    }
+    .div-1 .finance .media-h1{
+        display: block;
+    }
+    /* .div-1 .finance p{
+        margin-top: 2rem;
+    } */
+     .div-1 .papaya{
+        display: none;
+     }
+    .div-1 .balance-transaction{
+        display: block;
+    }
+    .div-1 .balance-transaction img{
+        width: 90vw;
+        height: 130vh;
+        margin-bottom: -18rem;
+    }
+    .div-1 .finance button{
+        width: 91.5vw;
+        margin-top: 2rem;
+    }
+
+
+    /*for div 2*/
+    .div-2{
+        display:flex;
+        text-align: center;
+    }
+    .div-2 .logo1{
+        display:block;
+    }
+    .div-2 .logo2{
+        display:block;
+    }
+
+   /*for div 3*/
+    .div-3 .div3-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .div-3 .div3-flex .div3-style{
+        min-width: 55vw;
+        height: 70vh;
+        margin-bottom: 3rem;
+    }
+    .div-3 .div3-flex .business-account .global-acc{
+        width: 50vw;
+    }
+    .div-3 .div3-flex .core-api .localised-png{
+        width: 50vw;
+    }
+    .div-3 .div3-flex .embed-finance .emfi-img{
+        width: 50vw;
+    }
+    .div-3 .div3-flex h3{
+        margin-top: 3rem;
+    }
+
+    /*for div 4*/
+    .div-4 .div4-writeup button{
+        width: 78vw;
+        margin-bottom: 2rem;
+    }
+    .div-4 .btn-5, .btn-6, .btn-7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+    }
+    .div-4 .div4-flex .flex-bg{
+        min-width: 40vw;
+        height: 45vh;
+    }
+    .div-4 .div4-flex .flex-bg .glob-img img{
+        width: 45vw;
+        margin-top: -3rem;
+        margin-left: -25rem;
+        /* height: 80vh; */
+    }
+    .div-4 .div4-flex .flex-bg .glob-text{
+        margin-top: 20rem;
+    }
+    .div-4 .div4-flex .bill-pay img{
+        width: 45vw;
+       
+    }
+    .div-4 .div4-flex2, .div4-flex3, .watch-video{
+        display: none;
+    }
+     /*for div 5*/
+     .div-5 .div5-text h2{
+        display: none;
+    }
+    .div-5 .div5-text .div5-media-h2{
+        display: block;
+    }
+     .div-5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -10rem;
+    }
+    .div-5 .div5-text {
+        margin-bottom: 5rem;
+        width: 80vw;
+    }
+    .div-5 .div5-flex{
+        margin-bottom: 5rem;
+        width: 80vw;
+        height: 60vh;
+    }
+
+    /*for div 6*/
+    .div-6{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5rem;
+    }
+    .div-6 .div6-text img{
+        width: 5vw;
+    }
+    .div-6 .div6-img img{
+        width: 80vw;
+        margin-top: 5rem;
+    }
+
+    /* for div 7 */
+    .div-7 .div7-text2{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-7 .div7-text2 .p1, .p2, .p3, .p4{
+        margin-bottom: 5rem;
+        margin-left: 5rem;
+    }
+
+    /*for div 8*/
+    .div-8 .dalstrong{
+        display: block;
+        margin-top: 6rem;
+        
+       
+    }
+    .div-8 .dalstrong .dalstrong-text{
+        background-color: #e3e3e3;
+        color: #2f3237;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        max-width: 85vw;
+    }
+    .div-8 .dalstrong .dalstrong-text p{
+        padding: 3rem;
+    }
+    .div-8 .dalstrong .dalstrong-text img{
+        /* background-color: gray; */
+        width: 25vw;
+        margin: 4rem 0 0 4rem;
+    }
+    .div-8 .dalstrong img{
+        width: 85vw;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    /*for div 9*/
+    .div-9{
+        display: block;
+        text-align: center;
+    }
+    .div-9 button{
+        margin-top: 3rem;
+        width: 90vw;
+    }
+
+    /*for footer*/
+    footer .footer1{
+        display: block;
+        margin-left: -2rem;
+    }
+    footer .footer2{
+        display: flex;
+    }
+    
+    footer .bis-acc, .core, .embed, .dveopers, .company{
+        margin-bottom: 2rem;
+    }
+
+}
+@media(max-width:767px){
+    html{
+        font-size: 46%;
+    }
+    header{
+        background:#fff
+    }
+    nav ul img{
+        height: 4vh;
+        width: 18vw;
+        margin-left: -7rem;
+    }
+    header nav ul .btn-1{
+        margin-left: -2rem;
+    }
+    .div-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+   /* for div1*/
+    .div-1 .papaya img{
+        margin-top: 6rem;
+        margin-bottom: -14rem;
+        height: 70vh;
+        width: 75vw;
+    }
+    .div-1 .finance .btn-3{
+        width: 29vw;
+    }
+    .div-1 .finance .btn-4{
+        width: 29vw;
+    }
+
+    /*for div2*/
+    .div-2 .logo1 {
+        display: block;
+        cursor: pointer;
+    }
+    .div-2 .logo2 {
+        display: block;
+        cursor: pointer;
+        margin-bottom: -10rem;
+    }
+
+    /*for div 3*/
+    .div-3 .div3-flex{
+        /* display: block; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .div-3 .div3-flex .div3-style{
+        min-width: 80vw;
+        min-height: 55vh;
+        margin-bottom: 5rem;
+        
+    }
+    
+    .div-3 .div3-flex img{
+        width: 76vw;
+        height: 55vh;
+    }
+    .div-3 .div3-flex .business-account .global-acc{
+        max-width: 75vw;
+    }
+   
+    .div-3 .div3-flex .business-account .visa{
+        position:absolute;
+        max-height: 12vh;
+        max-width: 29vw;
+        margin-top: 24rem;
+        margin-left: -20rem;
+    }
+    .div-3 .div3-flex .business-account .visa{
+        width: 19vw;
+        /* margin-left: -28rem; */
+
+    }
+    .div-3 .div3-flex .core-api .anim-api{
+        height: 38vh;
+        width: 25vw;
+        margin-top: 9rem;
+        margin-left: -23rem;
+    }
+
+    /*for div 4*/
+    .div-4{
+
+    }
+    .div-4 .btn-5, .btn-6, .btn-7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+    }
+    .div-4 .div4-flex .flex-bg{
+        min-width: 40vw;
+        height: 45vh;
+    }
+    .div-4 .div4-flex .flex-bg .glob-img img{
+        width: 45vw;
+        margin-top: -3rem;
+        margin-left: -25rem;
+        /* height: 80vh; */
+    }
+    .div-4 .div4-flex .flex-bg .glob-text{
+        margin-top: 20rem;
+    }
+    .div-4 .div4-flex .bill-pay img{
+        width: 45vw;
+       
+    }
+    .div-4 .div4-flex2, .div4-flex3, .watch-video{
+        display: none;
+    }
+
+    /*for div 5*/
+    .div-5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -10rem;
+    }
+    .div-5 .div5-text {
+        margin-bottom: 5rem;
+        width: 80vw;
+    }
+    .div-5 .div5-flex{
+        margin-bottom: 5rem;
+        width: 80vw;
+        height: 60vh;
+    }
+
+    /*for div 6*/
+    .div-6{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5rem;
+    }
+    .div-6 .div6-text img{
+        width: 5vw;
+    }
+    .div-6 .div6-img img{
+        width: 80vw;
+        margin-top: 5rem;
+    }
+
+    /*for div 7*/
+    .div-7 .div7-text2{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-7 .div7-text2 .p1, .p2, .p3, .p4{
+        margin-bottom: 5rem;
+        margin-left: 5rem;
+    }
+
+    /*for div 8*/
+    .div-8 .dalstrong{
+        display: block;
+        margin-top: 6rem;
+        
+       
+    }
+    .div-8 .dalstrong .dalstrong-text{
+        background-color: #e3e3e3;
+        color: #2f3237;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        max-width: 85vw;
+    }
+    .div-8 .dalstrong .dalstrong-text p{
+        padding: 3rem;
+    }
+    .div-8 .dalstrong .dalstrong-text img{
+        /* background-color: gray; */
+        width: 25vw;
+        margin: 4rem 0 0 4rem;
+    }
+    .div-8 .dalstrong img{
+        width: 85vw;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    /*for div 9*/
+    .div-9{
+        display: block;
+        text-align: center;
+    }
+    .div-9 button{
+        margin-top: 3rem;
+        width: 65vw;
+    }
+
+    /*for footer*/
+    footer .footer1{
+        display: block;
+        margin-left: -2rem;
+    }
+    footer .footer2{
+        display: block;
+    }
+    footer .bis-acc, .core, .embed, .dveopers, .company{
+        margin-bottom: 2rem;
+    }
+}
